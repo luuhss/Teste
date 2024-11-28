@@ -1,0 +1,380 @@
+/* Telas muito pequenas -------------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+    
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .imagem{
+            width: 70px;
+        }
+        /* Estilo do cabeçalho */
+        header {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #322238;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        /* Estilo do menu de navegação */
+        nav ul {
+            background-color: #451452;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+        }
+        
+        /* Estilo da seção principal */
+        section {
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+            flex: 1;
+        }
+        
+        article {
+            flex: 3;
+            margin-right: 2rem;
+        }
+        #color, h3{
+            color: white;
+        }
+        /*Jogos*/
+        aside {
+    
+            flex: 1;
+            background-color: #5a0863;
+            padding: 1rem;
+        }
+        
+        /* Estilo do rodapé */
+        footer {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+        }
+    
+        .container_jogos{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr ;
+        }
+    
+        .grid-item{
+            width: 82px;
+            height: 90px;
+            border-radius: 8px;
+        }
+   
+    }
+
+/* Telas pequenas ------------------------------------------------------------- */
+@media only screen and (min-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+    
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .imagem{
+            width: 70px;
+        }
+        /* Estilo do cabeçalho */
+        header {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #322238;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        /* Estilo do menu de navegação */
+        nav ul {
+            background-color: #451452;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+        }
+        
+        /* Estilo da seção principal */
+        section {
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+            flex: 1;
+        }
+        
+        article {
+            flex: 3;
+            margin-right: 2rem;
+        }
+        #color, h3{
+            color: white;
+        }
+        /*Jogos*/
+        aside {
+    
+            flex: 1;
+            background-color: #5a0863;
+            padding: 1rem;
+        }
+        
+        /* Estilo do rodapé */
+        footer {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+        }
+    
+        .container_jogos{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr ;
+        }
+    
+        .grid-item{
+            width: 82px;
+            height: 90px;
+            border-radius: 8px;
+        }
+    
+    
+
+}
+
+/* Telas médias ------------------------------------------------------------- */
+@media only screen and (min-width: 992px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+    
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .imagem{
+            width: 70px;
+        }
+        /* Estilo do cabeçalho */
+        header {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #322238;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        /* Estilo do menu de navegação */
+        nav ul {
+            background-color: #451452;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+        }
+        
+        /* Estilo da seção principal */
+        section {
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+            flex: 1;
+        }
+        
+        article {
+            flex: 3;
+            margin-right: 2rem;
+        }
+        #color, h3{
+            color: white;
+        }
+        /*Jogos*/
+        aside {
+    
+            flex: 1;
+            background-color: #5a0863;
+            padding: 1rem;
+        }
+        
+        /* Estilo do rodapé */
+        footer {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+        }
+    
+        .container_jogos{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr ;
+        }
+    
+        .grid-item{
+            width: 82px;
+            height: 90px;
+            border-radius: 8px;
+        }
+    }
+
+/* Telas de computador ------------------------------------------------------------- */
+@media only screen and (min-width: 1200px) {
+    
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .imagem{
+        width: 70px;
+    }
+    /* Estilo do cabeçalho */
+    header {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #322238;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    /* Estilo do menu de navegação */
+    nav ul {
+        background-color: #451452;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 0 1rem;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        display: block;
+    }
+    
+    /* Estilo da seção principal */
+    section {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        flex: 1;
+    }
+    
+    article {
+        flex: 3;
+        margin-right: 2rem;
+    }
+    #color, h3{
+        color: white;
+    }
+    /*Jogos*/
+    aside {
+
+        flex: 1;
+        background-color: #5a0863;
+        padding: 1rem;
+    }
+    
+    /* Estilo do rodapé */
+    footer {
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 1rem;
+        margin-top: auto;
+    }
+
+    .container_jogos{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+    }
+
+    .grid-item{
+        width: 82px;
+        height: 90px;
+        border-radius: 8px;
+    }
+}
